@@ -11,7 +11,7 @@
 		compatible = "zmk,keymap";
 		default_layer {
 				// ------------------------------------------------------------------------------------------------------------
-				// | ESC | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F9  | F9  | F10 | F11 | F12 | PSCRN | INS | DEL	|
+				// | ESC | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F9  | F9  | F10 | F11 | F12 | VOL UP | VOL DN | DEL	|
 				// |  `  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   BKSP   | HOME	|
 				// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |        | PG UP |
 				// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |   # | ENTER     | PG DN |
@@ -19,7 +19,7 @@
 				// |  CTL  |  WIN  |  ALT  |            SPACE               | ALT | 1  | CTRL |  LEFT | DOWN | RIGHT |
 				// ------------------------------------------------------------------------------------------------------------
 			bindings = <
-				&kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12   &kp PSCRN &kp INS &kp DEL
+				&kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12   &kp C_VOL_UP &kp C_VOL_DN &kp DEL
 				&kp UK_GRAVE &kp UK_N1 &kp UK_N2 &kp UK_N3 &kp UK_N4 &kp UK_N5 &kp UK_N6 &kp UK_N7 &kp UK_N8&kp UK_N9 &kp UK_N0 &kp UK_MINUS &kp UK_EQUAL &kp BKSP &kp HOME
 				&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp  I    &kp  O  &kp  P   &kp UK_LBKT &kp UK_RBKT  		 &kp PG_UP
 				&kp CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp  K    &kp  L  &kp UK_SEMI &kp UK_SQT  &kp UK_HASH	&kp RET &kp PG_DN
